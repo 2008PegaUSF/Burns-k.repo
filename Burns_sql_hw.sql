@@ -163,7 +163,7 @@ on "Album"."ArtistId" = "Artist"."ArtistId";
 --5.4
 --joining each row from table1 to each row from table2
 select * from "Album" cross join "Artist" order by "Name";
-on "Album"."ArtistId" = "Artist"."ArtistId" 
+ 
 
 --5.5
 --self you give aliases to sperate the tables and you can use a lot of columns from the table
